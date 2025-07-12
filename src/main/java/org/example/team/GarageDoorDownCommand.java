@@ -1,14 +1,14 @@
 package org.example.team;
 
-public class GarageDoorOpenCommand implements Command {
+public class GarageDoorDownCommand implements Command {
     GarageDoor door;
 
-    public GarageDoorOpenCommand(GarageDoor door) {
+    public GarageDoorDownCommand(GarageDoor door) {
         this.door = door;
     }
 
     @Override
     public void execute() {
-        door.up();
+        door.down();
     }
 }
