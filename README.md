@@ -24,3 +24,29 @@ cd my_project
 git init
 ```
 Это лишь некоторые функции markdown.
+
+# Работа с git, основные команды
+
+## Основные
+
+ls - список файлов и папок
+cd - для перехода по файловой системе
+
+## Работа с файлами
+
+1. Создание
+	touch fileName.txt
+2. Удаление
+	rm fileName.txt
+3. Вывод содержимого файла
+	cat fileName.txt
+4. Копировать содержимое файла в буфер обмена
+	pbcopy < fileName.txt
+
+## Работа с директориями
+
+1. Создание
+	mkdir catalogName
+2. Удаление / Удаление не пустого каталога
+	rmdir catalogName
+	rm - r catalogName
